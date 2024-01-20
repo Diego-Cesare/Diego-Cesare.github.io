@@ -22,6 +22,7 @@ header{
   align-items: center;
   justify-content: space-around;
   padding: 1vh;
+  margin-bottom: 50px;
 }
 
 .logo{
@@ -73,9 +74,9 @@ header{
 section{
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  height: 84vh;
+  gap: 10vh;
 }
 
 .logotype{
@@ -109,15 +110,22 @@ section{
 
 .slids{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .a, .b{
   display: flex;
 }
 
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 .x, .y, .z{
-  margin: .2vh;
+  margin: 10px;
   padding: 2vh 5vh;
   background-color: var(--bg-alt);
   border-radius: 5px;
